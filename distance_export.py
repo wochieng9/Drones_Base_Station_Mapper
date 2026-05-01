@@ -4,8 +4,7 @@ import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # Configuration - Set your API key here if using OpenRouteService
-api_key = st.secrets["OPENROUTESERVICE_API_KEY"]
-OPENROUTESERVICE_API_KEY = api_key
+OPENROUTESERVICE_API_KEY = st.secrets["OPENROUTESERVICE_API_KEY"]
 USE_OPENROUTESERVICE = False
 
 def test_road_distance_api():
