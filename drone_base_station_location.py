@@ -186,7 +186,7 @@ class DroneHubOptimizer:
 
 # ── Streamlit App ─────────────────────────────────────────────────────────────
 
-DATA_PATH = "/Users/ocu9/Desktop/sub_saharan_health_facilities.xlsx"   # ← update to your actual file path
+DATA_PATH = "sub_saharan_health_facilities.xlsx"  
 
 
 def main():
